@@ -257,7 +257,7 @@ def test_contaix(pdf_path: str) -> str:
     with open(pdf_path, 'rb') as f:
         pdf_bytes = f.read()
     markdown_text = bytes_to_markdown(pdf_bytes, input_format="pdf")
-    print("markdown_text提取的文本内容:")
+    print("contaix提取的文本内容:")
     print(markdown_text)
     return markdown_text
 

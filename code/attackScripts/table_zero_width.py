@@ -6,7 +6,7 @@ from typing import Dict, Callable
 from kreuzberg import extract_file_sync, ExtractionConfig
 
 # 文件路径
-PDF_PATH = "../../attackFile/test_table_document_ocg.pdf"
+PDF_PATH = "../../attackFile/test_table_document_zero_width.pdf"
 
 
 def test_kreuzberg(pdf_path: str):
